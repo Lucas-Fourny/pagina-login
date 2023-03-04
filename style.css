@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-color:transparent;
+    background-image: linear-gradient(to right,rgb(119,4,181),rgb(208,48,187));
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    width: 25%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: rgba(206, 206, 206, 0.993);
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.facebook>input, .twitter>input {
+    font-size: larger;
+    color: aliceblue;
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    box-shadow: 0 0 9px 0 black;
+}
+.twitter>input {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(14, 191, 223);
+}
+.fa-facebook-f {
+   position: relative;
+   right: 60px;
+   bottom: 10px;
+   font-size: large;
+   color: rgb(246, 246, 250);
+}
+.fa-twitter {
+    position: relative;
+   right: 60px;
+   font-size: large;
+    color: aliceblue;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    height: 120px;
+}
+.formulario>input {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 30px;
+    box-shadow: 0 0 5px 0 black;
+}
+.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.check {
+    display: flex;
+}
+form>input {
+    height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(119,4,181),rgb(77, 15, 68));
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    box-shadow: 0 0 9px 0 black;
+}
+i {
+    align-self: flex-start;
+    position: relative;
+    top: -33px;
+    padding-left: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+h1 {
+    font-size: xx-large;
+}
